@@ -1,6 +1,6 @@
 # Hi there 👋 I'm xinyang20
 
-[![Website](https://img.shields.io/badge/Portfolio-xinyang20.cn-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://xinyang20.cn)
+[![Website](https://img.shields.io/badge/Portfolio-xinyang20.cn-4285F4?style=flat&logo=google-chrome&logoColor=white)](http://xinyang20.cn)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Xin_Yang-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/xin-yang-4125a92a2/)
 [![Email](https://img.shields.io/badge/Email-gaoxinyang317@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:gaoxinyang317@gmail.com)
 
