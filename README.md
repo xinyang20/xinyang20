@@ -23,23 +23,19 @@ I'm a student from Nanjing University of Chinese Medicine passionate about techn
 ### Frameworks & Libraries
 ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=FFFFFF)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat&logo=django&logoColor=FFFFFF)
 ![WeChat Tiny App](https://img.shields.io/badge/-WeChat_Mini_Program-07C160?style=flat&logo=wechat&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
-
-
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 
 ### Tools & Platforms
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)
-![GitKraken](https://img.shields.io/badge/-GitKraken-179287?style=flat&logo=gitkraken&logoColor=white)
 ![Fork](https://img.shields.io/badge/-Fork-EE4C2C?style=flat&logo=git&logoColor=white)
 ![Sublime Text](https://img.shields.io/badge/-Sublime_Text-FF9800?style=flat&logo=sublimetext&logoColor=black)
 ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 ![IDEA](https://img.shields.io/badge/-IntelliJ_IDEA-000000?style=flat&logo=intellij-idea&logoColor=white)
 ![PyCharm](https://img.shields.io/badge/-PyCharm-21D789?style=flat&logo=pycharm&logoColor=white)
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
 ## 📊 Coding Stats
 
