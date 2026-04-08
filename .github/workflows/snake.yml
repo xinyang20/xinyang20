@@ -1,0 +1,36 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "45 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: xinyang20
+          outputs: |
+            output/github-contribution-grid-snake.svg?palette=github-light
+            output/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit snake files
+        run: |
+          if [ -n "$(git status --porcelain output/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add output/
+            git commit -m "chore: update contribution snake"
+            git push
+          fi

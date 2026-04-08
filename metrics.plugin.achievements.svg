@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="220" viewBox="0 0 440 220" role="img" aria-labelledby="title desc">
+  <title id="title">Achievements Placeholder</title>
+  <desc id="desc">Placeholder card until the metrics workflow generates a fresh SVG.</desc>
+  <rect width="440" height="220" rx="20" fill="#f6f8fa"/>
+  <rect x="18" y="18" width="404" height="184" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="40" y="76" fill="#1f2328" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Achievements</text>
+  <text x="40" y="118" fill="#57606a" font-family="Arial, Helvetica, sans-serif" font-size="18">Generated daily by the metrics workflow.</text>
+  <text x="40" y="152" fill="#57606a" font-family="Arial, Helvetica, sans-serif" font-size="18">It will replace this placeholder after the first run.</text>
+</svg>

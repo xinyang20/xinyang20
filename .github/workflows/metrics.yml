@@ -1,0 +1,52 @@
+name: Generate Metrics
+
+on:
+  schedule:
+    - cron: "15 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Base metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: xinyang20
+          config_timezone: Asia/Shanghai
+          base: header, activity, community, repositories, metadata
+          repositories_forks: no
+
+      - name: Languages card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: xinyang20
+          config_timezone: Asia/Shanghai
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 6
+          plugin_languages_threshold: 0%
+          plugin_languages_details: percentage
+          plugin_languages_ignored: html, css
+
+      - name: Achievements card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: xinyang20
+          config_timezone: Asia/Shanghai
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: B
+          plugin_achievements_secrets: no
