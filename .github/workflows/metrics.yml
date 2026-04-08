@@ -39,7 +39,7 @@ jobs:
           plugin_languages_ignored: html, css
 
       - name: Achievements card
-        uses: lowlighter/metrics@latest
+        uses: stalomeow/metrics@edcae0f874d69e509d25ddd5e750a2f41cd54e10
         with:
           filename: metrics.plugin.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
